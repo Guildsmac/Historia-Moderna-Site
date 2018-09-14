@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>História Moderna</title>
+        <link rel="stylesheet" href="../styles/mainStylesheet.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+            .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+            .fa-anchor,.fa-coffee {font-size:200px}
+        </style>
+    </head>
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+                <a href="./about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sobre</a>
+                <a href="./practice.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Para praticar</a>
+                <a href="./timeline.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Linha do tempo</a>
+                <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>-->
+            </div>
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+                <a href="./about.html" class="w3-bar-item w3-button w3-padding-large">Sobre</a>
+                <a href="./practice.html" class="w3-bar-item w3-button w3-padding-large">Para praticar</a>
+                <a href="./timeline.html" class="w3-bar-item w3-button w3-padding-large">Linha do tempo</a>
+                <!--<a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>-->
+            </div>
+        </div>
+        <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo">A história moderna</h1>
+            <p class="w3-xlarge">De uma queda a outra</p>
+
+        </header>
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-twothird">
+                    <h1>O que foi a idade moderna?(1453-1789)</h1>
+                    <h5 class="w3-padding-32">"O Estado sou Eu" -Luís XIV</h5>
+
+                    <p class="w3-text-grey">A idade moderna foi marcada pela crença de que o rei, absolutista, estaria acima de tudo e de todos. A transição de um regime feudalista para o capitalismo fortalece ainda mais o poder de reis absolutistas, que detinham o controle de grandes territórios e riquezas.</p>
+                </div>
+                <div class="w3-third w3-center">
+                    <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-third w3-center">
+                    <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+                </div>
+
+                <div class="w3-twothird">
+                    <h1>O descobrimento de um novo mundo</h1>
+                    <h5 class="w3-padding-32">"Ó mar salgado, quanto do teu sal<br>
+                        &nbsp&nbspSão lágrimas de Portugal!"<br>-Fernando Pessoa</h5>
+
+                    <p class="w3-text-grey">A idade moderna foi marcada pela ascenção do capitalismo, o que levou os monarcas a uma constante busca por riquezas, fazendo com que fossem incentivadas expedições para o mar desconhecido e temido.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-twothird">
+                    <h1>A grande ferida do mundo</h1>
+                    <h5 class="w3-padding-32">"Os fins justificam os meios" <br>-Interpretação da obra "O príncipe", de Nicolau Maquiavel</h5>
+                    <p class="w3-text-grey">Apesar de todos os avanços da idade moderna, houve um retrocesso cultural inimaginável:<br><strong>A escravidão</strong>, que deixa consequências até os dias atuais.</p>
+                </div>
+                <div class="w3-third w3-center">
+                    <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-third w3-center">
+                    <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+                </div>
+
+                <div class="w3-twothird">
+                    <h1>A reinvenção de uma cultura</h1>
+                    <h5 class="w3-padding-32">"Que o trabalho seja perfeito, para que mesmo depois de sua morte, ele permaneça"<br>-Leonardo da Vinci</h5>
+
+                    <p class="w3-text-grey">O renascimento cultural, de origem italiana, marca a humanidade para sempre ao deixar de representar Deus como o centro de tudo e passar a criar obras que enalteciam o homem.</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                let x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") === -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+    </body>
+</html>
