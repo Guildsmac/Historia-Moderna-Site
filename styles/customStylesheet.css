@@ -1,32 +1,75 @@
-.card{
-    opacity: 0.6;
-    display:none;
+.top-menu-bar{
+    background-color:#666ad1;
+    position:fixed;
+    z-index:1;
+    overflow:hidden;
+    width:100%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.top-menu-bar a{
+    float:left;
+    color: whitesmoke;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.top-menu-bar a:hover{
+    background-color: #303f9f;
+}
+
+.top-menu-bar a.active{
+    background-color:#001970;
+
+}
+
+.top-menu-bar a.active:hover{
+    background-color: #303f9f;
+}
+
+.padding-large {
+    padding: 12px 24px;
+}
+
+.margin-32 {
+    margin-left:32px;
+    margin-right:32px;
+}
+
+.card {
+    opacity: 0.9;
+    display: none;
+    background-color: #303f9f;
 }
 
 .container {
     padding: 0.01em 16px;
-	margin-bottom: 10px;
+    margin: auto auto 10px;
+    width: 90%;
 }
+
 .padding-64 {
     padding-top: 64px;
     padding-bottom: 64px;
-	
+
 }
 
-.padding-32{
-	padding-top: 32px;
-	padding-bottom:32px;
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.padding-16{
-	padding-top: 16px;
-	padding-bottom:16px;
+.padding-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .content {
     max-width: 1180px;
     margin: auto;
-	
+
 }
 
 .postTitle:hover {
@@ -34,57 +77,57 @@
     transform: scale(1.05);
 }
 
-.postTitle h1{
-	font-size:64px;
-	font-family: "Montserrat",sans-serif;
-	font-weight: 400;
-	line-height: 1.5;
-	
+.postTitle h1 {
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
 }
 
-.postTitle{
-	background-color: #8e8e8e;
+.postTitle {
+    background-color: #303f9f;
     transition: transform .2s;
 }
 
-.light-grey-card{
-    background-color: #f1f1f1;
+.light-grey-card {
+    background-color: #001970;
     transition: transform .2s;
 }
 
-.light-grey-card:hover, .normal-card:hover{
-	box-shadow: 8px 8px 1.2px grey;
-	transform: scale(1.025);
+.light-grey-card:hover, .normal-card:hover {
+    box-shadow: 8px 8px 1.2px grey;
+    transform: scale(1.025);
     opacity: 1;
 }
 
 .textLeft {
     text-align: left;
-	margin-left:15px;
+    margin-left: 15px;
 }
 
-.textRight{
+.textRight {
     text-align: right;
 
 }
 
 .text-grey {
-    color: #757575;
+    color: white;
 }
 
-body{
-    width: 90%;
-    margin:auto;
+body {
+    margin: auto;
+    color: white;
 }
 
-html, body{
+html, body {
     font-family: "Lato", sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
 
-h1{
-    font-weight:400;
+h1 {
+    font-weight: 400;
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
     line-height: 1.5;
