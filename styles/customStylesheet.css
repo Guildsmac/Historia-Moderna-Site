@@ -1,9 +1,13 @@
-.dropdown-content{
-	position:absolute;
-	display:none;
+
+.expanding{
 }
 
 .normal-card{}
+
+.card{
+    opacity: 0.6;
+    display:none;
+}
 
 .container {
     padding: 0.01em 16px;
@@ -31,6 +35,11 @@
 	
 }
 
+.postTitle:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .postTitle h1{
 	font-size:64px;
 	font-family: "Montserrat",sans-serif;
@@ -41,17 +50,18 @@
 
 .postTitle{
 	background-color: #8e8e8e;
+    transition: transform .2s;
 }
 
 .light-grey-card{
     background-color: #f1f1f1;
-	transition: transform .2s; /* Animation */
+    transition: transform .2s;
 }
 
 .light-grey-card:hover, .normal-card:hover{
-    
 	box-shadow: 8px 8px 1.2px grey;
-	transform: scale(1.05);
+	transform: scale(1.025);
+    opacity: 1;
 }
 
 .textLeft {
